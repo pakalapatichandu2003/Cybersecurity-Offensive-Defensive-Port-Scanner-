@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PortXScanner - Project Information</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f6f8; }
+    .container { padding: 2rem; max-width: 900px; }
+    blockquote { border-left: 5px solid #28a745; padding-left: 1rem; background-color: #f8f9fa; }
+    h1, h3, h4 { color: #198754; }
+    ul li { margin-bottom: 0.5rem; }
+    footer { margin-top: 3rem; text-align: center; font-size: 0.9rem; color: #777; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛡️ PortXScanner</h1>
+    <blockquote class="blockquote">
+      Developed by <b>Pakalapati Chandu</b> as part of a <b>Cyber Security Internship Project</b>.
+    </blockquote>
+
+    <h3>🔍 Project Overview</h3>
+    <p>
+      <b>PortXScanner</b> is a graphical cybersecurity tool designed for network reconnaissance and vulnerability assessment.
+      It combines traditional <b>socket-level scanning</b> with advanced <b>Nmap integrations</b>, allowing both beginner
+      and advanced users to efficiently analyze hosts, ports, and services in a user-friendly GUI environment.
+    </p>
+
+    <h4>⚙️ Key Features</h4>
+    <ul>
+      <li><b>Port Scanning</b> — Scan a specific target for open TCP/UDP ports using socket connections.</li>
+      <li><b>WHOIS Lookup</b> — Retrieve domain registration details and IP information.</li>
+      <li><b>Nmap Integration</b> — Run powerful scan profiles (Quick, Aggressive, OS Detection, Version Detection, Ping).</li>
+      <li><b>Batch Scanning</b> — Load multiple targets from a text file and perform automated scans with multiple profiles.</li>
+      <li><b>Server Information</b> — Fetch and display HTTP headers and server response banners.</li>
+      <li><b>TTL & Local IP Detection</b> — Analyze ICMP responses and find your local IP address easily.</li>
+      <li><b>Modern GUI</b> — Built with <code>ttkbootstrap</code> for a clean, responsive dark mode interface.</li>
+    </ul>
+
+    <h4>💡 Technical Highlights</h4>
+    <ul>
+      <li>Developed in Python using <b>socket</b>, <b>subprocess</b>, <b>threading</b>, and <b>whois</b> libraries.</li>
+      <li>Uses <b>Nmap</b> for advanced scanning operations, integrated through command-line execution.</li>
+      <li>Responsive and dynamic GUI powered by <b>ttkbootstrap</b> (Themed Tkinter).</li>
+      <li>Supports cross-platform use (Windows/Linux).</li>
+    </ul>
+
+    <h4>🎯 Purpose</h4>
+    <p>
+      The main goal of PortXScanner is to provide an easy-to-use cybersecurity tool for learners and professionals to
+      identify open ports, detect services, and gain insights into target systems' network exposure.
+      This project bridges practical network security testing with visual reporting.
+    </p>
+
+    <h4>🔒 Future Enhancements</h4>
+    <ul>
+      <li>Export results to PDF/CSV reports.</li>
+      <li>Add vulnerability scoring based on service banners.</li>
+      <li>Integrate live network graph visualization.</li>
+      <li>Implement multi-threaded Nmap scanning for faster results.</li>
+    </ul>
+
+    <footer>
+      <hr>
+      <p>© 2025 PortXScanner by Pakalapati Chandu | Cyber Security Internship Project</p>
+    </footer>
+  </div>
+</body>
+</html>
